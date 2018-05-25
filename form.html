@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form Sample</title>
+</head>
+<body>
+    <form method="POST" action="https://formspree.io/natalihreshchyshyn@gmail.com">
+        <label for="client-name">Name:</label>
+       <input type="text" id="client-name" placeholder="Name" name="client-name" required>
+       <br>
+       <label>Surname:
+       <input type="text" placeholder="Surname" name="client-surname" required></label>
+       <br>
+       <label>Email:
+       <input type="email" placeholder="Email" name="client-email" required></label>
+       <br>
+       <label>Gender:</label>
+     
+  <input type="radio" name="gender" value="male" checked> Male
+  <input type="radio" name="gender" value="female"> Female
+  <input type="radio" name="gender" value="other"> Other<br>
+<input type="checkbox" name="pet1" value="Dog"> I have a dog<br>
+  <input type="checkbox" name="pet2" value="Cat"> I have a cat<br>
+  <input type="button" onclick="alert('I'm a human!')" value="Click Me!"><br>
+ Birthday (date and time):
+  <input type="datetime-local" name="bdaytime"><br>
+       <input type="submit" value="Send">
+       <input type="reset" value="Reset">
+       
+       
+    </form>
+    
+</body>
+</html>
